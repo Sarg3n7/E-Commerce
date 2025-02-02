@@ -6,7 +6,7 @@ const dbgr = require("debug")("development:mongoose");
 //Other wise you can try this set process.env.NODE_ENV=development
 
 mongoose
-  .connect(`${config.get("MONGODB_URI")}/scatch`)
+  .connect(`${config.get("MONGODB_URI")}/clyra`)
   .then(function () {
     dbgr("Connected");
   })

@@ -12,7 +12,7 @@ const path = require("path");
 const expressSession = require("express-session");
 const flash = require("connect-flash");
 
-//It will help to get the all enviormental veriavle
+//It will help to get the all enviormental variable
 require("dotenv").config();
 
 //Requireing Database.
